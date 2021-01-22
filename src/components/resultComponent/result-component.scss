@@ -1,0 +1,66 @@
+#list-results {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    a{
+        text-decoration: none;
+        color: gray;
+    }
+    .resElement{
+        display: flex;
+        padding: 16px;
+        margin: 16px;
+   
+        .price-description {
+            margin-left: 16px;
+            max-width: 55%;
+            
+            .price{
+                display: block;
+                margin-top: 3px;
+                margin-bottom: 32px;
+                
+
+                .pricevalue {
+                    display: inline;
+                    vertical-align: middle;
+                    font-size: 24px;
+                    color: #333333;
+                    margin-right: 25px;
+                }
+
+                .freeshipping img{
+                    width: 25px;
+                }
+            }
+            .description{
+                display: block;
+                font-size: 18px;
+                color: #333333;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+        }
+
+        .city {
+            color: #999999;
+            margin-top: 35px;
+            margin-left: auto;
+            margin-right: 120px;
+        }
+    }   
+    
+    .image-product {
+        border-radius: 4px;
+        width: 180px;
+        height: 180px;
+        overflow: hidden;
+    }
+}
+
+.line-div{
+    width: 90%;
+    border: 1px solid #EEEEEE
+}
